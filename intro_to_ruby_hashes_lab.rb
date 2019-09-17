@@ -24,10 +24,9 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {:name => "Grace Hopper"}
-  puts my_hash_creator
+  return my_hash_creator
 end
 
-puts my_hash_creator
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
